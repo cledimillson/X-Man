@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Projeto X-Man</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/resposivo.css">
+   
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/logo.svg" alt="logo-x-man">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-nome="Ciclope" data-script="A história de Ciclope, cujo nome verdadeiro é Scott Summers, é um dos elementos centrais dos X-Men. Ele é um mutante que pode emitir raios vermelhos a partir dos olhos. ">
+                    <img src="src/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-nome="Jean Grey" data-script="Jean Grey é uma mutante dos X-Men com poderes telepáticos e telecinéticos. Ela é o principal avatar da Força Fênix, uma entidade cósmica que lhe confere poderes cósmicos. "> 
+                    <img src="src/imagens/card-jean-grey.jpg" alt="Personagem jean-grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-nome="Lince Negra" data-script="A Lince Negra, também conhecida como Kitty Pryde, é uma mutante que apareceu pela primeira vez em The Uncanny X-Men #129, em janeiro de 1980. Ela é uma das personagens mais queridas dos X-Men. ">
+                    <img src="src/imagens/card-lince-negra.jpg" alt="Personagem lince-negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-nome="Tempestade" data-script="A Tempestade, ou Ororo Munroe, é uma personagem dos X-Men que tem origem africana e é uma das mais poderosas e notáveis da Marvel. Ela é a primeira líder feminina e negra de uma equipe de super-heróis da Marvel. ">
+                    <img src="src/imagens/card-tempestade.jpg" alt="Personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-nome="Vampira" data-script="A Vampira, cujo nome verdadeiro é Anna Marie, é uma personagem dos X-Men da Marvel Comics. Ela tem a habilidade de absorver poderes, memórias e vitalidade de outras pessoas através do contato com a pele. ">
+                    <img src="src/imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-nome="Wolverine" data-script="Wolverine é um dos anti-heróis resistentes que emergiram na cultura popular americana após a Guerra do Vietnã. ">
+                    <img src="src/imagens/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-nome="Noturno" data-script="Originalmente, a Marvel estabeleceu que Noturno era filho de Mística e de um nobre alemão chamado Barão Christian Wagner. Segundo a história, a Mística foi forçada a fugir da casa de Wagner quando os moradores locais descobriram que seu bebê (e ela!) tinha pele azul.">
+                    <img src="src/imagens/card-noturno.jpg" alt="Personagem noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-nome="Magneto" data-script="Trata-se de um sobrevivente do Holocausto, que se torna um mutante com enormes poderes de manipulação de campos magnéticos, além de controlar qualquer tipo de metal. Sua primeira aparição foi em Malcolm X, como afirma Stan Lee, em 1963, dando origem a um dos vilões mais reconhecidos das Histórias em Quadrinhos.">
+                    <img src="src/imagens/card-magneto.jpg" alt="Personagem magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança,
+                    mas não consegue controlá-los.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
